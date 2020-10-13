@@ -12,7 +12,7 @@ description: >
 
 ## Overview
 
-[Embed video #1]
+[Embed video #1 here]
 
 In this session we will start looking at one of the most widely used, and almost universally useful, applications of the R programming languages - data visualisation. We will do this by learning specifically about the plotting library `ggplot2`. There are three parts to this workbook, as well as a series of exercises and questions. You can complete the workbooks at your own pace, across multiple sessions, although note that progress through each part of the workbook only saves if you are using the same device. However you can skip back and forth at any point within each part using the navigation menu.
 
