@@ -32,7 +32,8 @@ As a reminder, in this workbook there are a mixture of code chunks that you can 
 
 ```{r setup, include=FALSE}
 library(learnr)
-library(ggplot2)
+library(tidyverse)
+library(knitr)
 tutorial_options(exercise.timelimit = 10)
 Pulse<-readRDS("Pulse.RDS")
 
@@ -48,8 +49,7 @@ The dataset contains an extract of 356 responses to 10 of the survey questions, 
 A summary of the columns in the dataset is below.
 
 ```{r, echo=FALSE,message=FALSE,warning=FALSE}
-library(tidyverse)
-library(knitr)
+
 
 data.frame(Column=c("Gender","Age","AgeGrp","Race","Income","Education","PoliticalParty","PoliticalView","ApproveTrump","Attractiveness"),
            Description=c("What gender do you identify with?","What is your age?","Age range","What is your race?",
