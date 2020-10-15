@@ -17,7 +17,7 @@ description: >
 In this session we will start looking at one of the most widely used, and almost universally useful, applications of the R programming languages - data visualisation. We will do this by learning specifically about the plotting library `ggplot2`. There are three parts to this workbook, as well as a series of exercises and questions. You can complete the workbooks at your own pace, across multiple sessions, although note that progress through each part of the workbook only saves if you are using the same device. However you can skip back and forth at any point within each part using the navigation menu.
 
 ### Installing the ggplot2 package
-As mentioned in the video, this is not the default plotting library within R - but an additional package which needs to be installed seperately. We will learn more about installing packages a bit later in the course, but an important thing to remember is that when you are using RStudio or R, to make sure you have downloaded the package first,using `install.packages("ggplot2")`, and that you have loaded the package for the session, using `library(ggplot2)`. The package has already been pre-loaded into this workbook.
+As mentioned in the video, this is not the default plotting library within R - but an additional package which needs to be installed separately. We will learn more about installing packages a bit later in the course, but an important thing to remember is that when you are using RStudio or R, to make sure you have downloaded the package first,using `install.packages("ggplot2")`, and that you have loaded the package for the session, using `library(ggplot2)`. The package has already been pre-loaded into this workbook.
 
 
 ### Overview of ggplot2
@@ -87,7 +87,7 @@ Let's break down each of the different parts of this command.
 
 With ggplot2, you always begin a graph with the function `ggplot()`. This function provides the information which will be passed to all subsequent functions making up the plot - about the data and the aesthetic mapping being used. 
 And to make a plot you need some data, all ggplots must be made from an object of class data frame (or tibble) - we cannot plot anything which does not live inside of one of these data objects. 
-So the first thing that we need to specify in the function is what data frame we are using. In this case the data frame we are using has been assigned the the name `Pulse`.
+So the first thing that we need to specify in the function is what data frame we are using. In this case the data frame we are using has been assigned the name `Pulse`.
 
 And we could just finish our code at this point and run this chunk of code, it is a valid and complete piece of code.
 
